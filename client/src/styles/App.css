@@ -1,0 +1,27 @@
+.container{
+  padding: 0 40%;
+}
+p{
+  text-align: center;
+}
+.text{
+  text-align: center;
+  color: rgb(247, 53, 53);
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 2rem;
+  border: 1px solid rgb(20, 19, 19);
+  padding: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+.text:hover{
+  color: rgb(186, 15, 21);
+  background-color: beige;
+  border: 1.7px solid rgb(186, 15, 21);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width:551px) {
+  .container{
+    padding: 0 20%;
+  }
+}

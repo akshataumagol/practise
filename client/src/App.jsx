@@ -1,11 +1,11 @@
 import React from 'react';
-import './styles/App.css';
+//import './styles/App.css';
+import Main from './components/Main';
 
 export default function App() {
   return (
-    <div className='container'>
-      <p>Hover here</p>
-    <div className='text'>Hello World!</div>
-    </div>
+    <div>
+    <Main />
+  </div>
   )
 }
